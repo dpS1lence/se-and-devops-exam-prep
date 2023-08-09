@@ -22,7 +22,7 @@ jobs:
         node-version: 14.x
         cache: 'npm'
     - name: Installing npm
-      run: npm ci
+      run: npm install
     - name: Running unit tests
       run: npm test:unit
     - name: Displaying username
